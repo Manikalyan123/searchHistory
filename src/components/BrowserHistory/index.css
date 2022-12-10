@@ -1,0 +1,67 @@
+.Cont {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+}
+.app-logo {
+  height: 40px;
+  width: 100px;
+}
+.blue-cont {
+  height: 8vh;
+  background-color: #3367d6;
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+.image {
+  height: 50px;
+  width: 170px;
+}
+.Input-cont {
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 130px;
+  background-color: #2850a7;
+  border: solid #6697ff 1px;
+}
+.input {
+  height: 36px;
+  width: 35vw;
+  border: none;
+  outline: none;
+  margin-left: 0px;
+  color: white;
+  font-size: 15px;
+}
+.search-cont {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.searchItemsCard {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  height: 100%;
+  width: 80%;
+  padding-right: 20px;
+}
+.search-image {
+  height: 30px;
+  width: 33px;
+  margin-top: 4px;
+  border-right: solid #6697ff 1px;
+  margin-right: 5px;
+  padding-right: 8px;
+  padding-left: 4px;
+}
+.emptyPassage {
+  color: RED;
+  font-size: 30px;
+}
+* {
+  font-family: 'Roboto';
+}
